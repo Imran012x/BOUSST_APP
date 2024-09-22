@@ -10,9 +10,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Set your OpenAI API key from the environment variable
-#openai.api_key = os.getenv('OPENAI_API_KEY')
+openai.api_key = os.getenv('OPENAI_API_KEY')
 # Set your OpenAI API key
-openai.api_key = 'sk-proj-8b2aBpZUZakPVmzOGxkET3BlbkFJD9xj7qgq5NNYYUZCMktY'
+#openai.api_key = 'sk-proj-8b2aBpZUZakPVmzOGxkET3BlbkFJD9xj7qgq5NNYYUZCMktY'
 
 # Function to extract text from PDF
 def extract_text_from_pdf(pdf_path):
