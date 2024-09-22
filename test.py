@@ -3,7 +3,14 @@ import streamlit as st
 import PyPDF2
 import requests
 from bs4 import BeautifulSoup
+from dotenv import load_dotenv
+#import os
 
+# Load environment variables from .env file
+load_dotenv()
+
+# Set your OpenAI API key from the environment variable
+#openai.api_key = os.getenv('OPENAI_API_KEY')
 # Set your OpenAI API key
 openai.api_key = 'sk-proj-8b2aBpZUZakPVmzOGxkET3BlbkFJD9xj7qgq5NNYYUZCMktY'
 
