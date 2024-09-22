@@ -4,7 +4,7 @@ import PyPDF2
 import requests
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
-#import os
+import os
 
 # Load environment variables from .env file
 load_dotenv()
