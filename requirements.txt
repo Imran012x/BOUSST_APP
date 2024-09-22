@@ -1,5 +1,6 @@
 streamlit
 openai==0.28
+python-dotenv
 PyPDF2
 beautifulsoup4
 requests
