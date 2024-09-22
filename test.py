@@ -71,7 +71,7 @@ def split_text_into_chunks(text, max_tokens=16000, overlap=1000):
     return chunks
 
 # List of PDF files
-pdf_files = ["1.pdf", "2.pdf", "3.pdf"]
+pdf_files = ["1.pdf", "2.pdf", "3.pdf","4.pdf"]
 
 # Streamlit UI
 st.title("BOUSST AI PORTAL")
