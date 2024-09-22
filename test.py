@@ -40,10 +40,7 @@ def query_gpt(prompt, model="gpt-3.5-turbo"):
 def scrape_websites():
     urls = [
         "https://www.bou.ac.bd/BOU/VCProfile",
-        "https://www.bousst.edu.bd/",
-          "https://www.bousst.edu.bd/faculty-members",
-        "https://www.bou.ac.bd/BOU/vc",
-        "https://www.bou.ac.bd/Contact/RegionalCentre/"
+        "https://www.bousst.edu.bd/faculty-members"
       
     ]
     scraped_data = ""
