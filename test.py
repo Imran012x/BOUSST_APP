@@ -5,14 +5,13 @@ import requests
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 import os
+import openai
+import streamlit as st
 
-# Load environment variables from .env file
-load_dotenv()
+# Get the API key from Streamlit secrets
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
-# Set your OpenAI API key from the environment variable
-openai.api_key = os.getenv('OPENAI_API_KEY')
-# Set your OpenAI API key
-#openai.api_key = 'sk-proj-8b2aBpZUZakPVmzOGxkET3BlbkFJD9xj7qgq5NNYYUZCMktY'
+
 
 # Function to extract text from PDF
 def extract_text_from_pdf(pdf_path):
