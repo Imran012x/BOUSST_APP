@@ -44,7 +44,8 @@ def scrape_websites():
         "https://www.bou.ac.bd/BOU/vc",
         "https://www.bou.ac.bd/BOU/VCOffice",
         "https://www.bou.ac.bd/Authority/FormerVC",
-        "https://www.bou.ac.bd/Contact/RegionalCentre/"
+        "https://www.bou.ac.bd/Contact/RegionalCentre/",
+        "https://www.bousst.edu.bd/faculty-members"
     ]
     scraped_data = ""
     for url in urls:
