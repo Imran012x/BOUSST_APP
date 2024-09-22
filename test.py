@@ -41,11 +41,10 @@ def scrape_websites():
     urls = [
         "https://www.bou.ac.bd/BOU/VCProfile",
         "https://www.bousst.edu.bd/",
+          "https://www.bousst.edu.bd/faculty-members",
         "https://www.bou.ac.bd/BOU/vc",
-        "https://www.bou.ac.bd/BOU/VCOffice",
-        "https://www.bou.ac.bd/Authority/FormerVC",
-        "https://www.bou.ac.bd/Contact/RegionalCentre/",
-        "https://www.bousst.edu.bd/faculty-members"
+        "https://www.bou.ac.bd/Contact/RegionalCentre/"
+      
     ]
     scraped_data = ""
     for url in urls:
