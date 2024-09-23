@@ -77,7 +77,7 @@ st.markdown("<h1 style='text-align: center;'>BOUSST AI PORTAL</h1>", unsafe_allo
 question = st.text_input("Enter your question")  # Create an input field for the user to enter a question
 
 # PDF file path (hardcoded or passed dynamically if needed)
-pdf_file_path = 'path_to_your_pdf.pdf'  # Set the path to the PDF file
+pdf_file_path = 'cse.pdf'  # Set the path to the PDF file
 
 # Websites to scrape (You can modify or add more websites)
 websites = ['https://www.bou.ac.bd/BOU/VCProfile', 'https://www.bousst.edu.bd/faculty-members']  # List of websites to scrape
