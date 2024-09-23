@@ -69,7 +69,9 @@ def analyze_pdf_and_scrape(question, pdf_file, websites):
     return "No answer found from PDF or website scraping."  # Return a final message if no answer is found
 
 # Streamlit app
-st.title("Question Answering from PDF with GPT-3.5 Turbo and Web Scraping")  # Set the title of the app
+#st.title("BOUSST AI PORTAL")  # Set the title of the app
+st.markdown("<h1 style='text-align: center;'>BOUSST AI PORTAL</h1>", unsafe_allow_html=True)  # Centered title
+
 
 # Ask a question
 question = st.text_input("Enter your question")  # Create an input field for the user to enter a question
